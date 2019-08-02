@@ -780,9 +780,9 @@ RCT_EXPORT_METHOD(jsInitialised:(RCTPromiseResolveBlock)resolve rejecter:(RCTPro
 }
 
 - (NSDictionary *) constantsToExport {
-    return @{ @"backgroundFetchResultNoData" : @(UIBackgroundFetchResultNoData),
-              @"backgroundFetchResultNewData" : @(UIBackgroundFetchResultNewData),
-              @"backgroundFetchResultFailed" : @(UIBackgroundFetchResultFailed)};
+    return @{ @"UIBackgroundFetchResultNoData" : @(UIBackgroundFetchResultNoData),
+              @"UIBackgroundFetchResultNewData" : @(UIBackgroundFetchResultNewData),
+              @"UIBackgroundFetchResultFailed" : @(UIBackgroundFetchResultFailed)};
 }
 
 + (BOOL)requiresMainQueueSetup
